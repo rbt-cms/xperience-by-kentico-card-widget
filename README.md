@@ -1,4 +1,4 @@
-# Xperience by Kentico Custom Widget - Card
+# Xperience by Kentico Custom Widget - Card Widget
 A Card widget is tidy, visually pleasing container that holds images, text, buttons and other elements for displaying information and features compactly.
 
 # Installation
@@ -7,7 +7,7 @@ Install the Kentico.Xperience.Custom.Widgets.CardWidget.1.0.0 NuGet Package to y
 
 # Widget
 
-Thisis a widget which allows you to add a Card to your page with certain attributes that can be configured while adding. The properties that can be configured are:
+Thisis a widget which allows you to add a Card Widget to your page with certain attributes that can be configured while adding. The properties that can be configured are:
 
 - IsVisible: Select this option to display the widget on the page
 - CardTitle*: Enter your desired title
