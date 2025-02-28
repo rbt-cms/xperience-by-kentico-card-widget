@@ -3,14 +3,22 @@ A Card widget is tidy, visually pleasing container that holds images, text, butt
 
 # Installation
 
-Install the RBT.Kentico.Xperience.Custom.Widgets.Card.1.0.0 NuGet Package to your Xperience by Kentico website (>=29.4.0 with .Net 8.0) and rebuild the project.
+Install the Kentico.Xperience.Custom.Widgets.Card.1.0.0 NuGet Package to your Xperience by Kentico website (>=29.4.0 with .Net 8.0) and rebuild the project.
 
 # Widget
 
 Thisis a widget which allows you to add a Card to your page with certain attributes that can be configured while adding. The properties that can be configured are:
 
-- IsVisible: Select IsVisible option
-
+- IsVisible: Select this option to display the widget on the page
+- CardTitle*: Enter your desired title
+- CardDescription*: Enter your desired description
+- CardCssClass : Enter your desired card css class
+- CardImage*: Upload your desired image
+- CardImageAltText*: Enter your desired imagealttext
+- Redirect URL: Enter or select your desired URL from the content tree
+- CardImageCssClass : Enter your desired card image css class
+- CardImageWidth : Enter your desired card image width
+- CardImageHeight : Enter your desired card image height
 - Content Before: HTML content placed before the widget content. Can be used to display a header or add encapsulating code such as div tag
 - Content After: HTML content placed after the widget content. Can be used to display a header or add encapsulating code such as div tag
 

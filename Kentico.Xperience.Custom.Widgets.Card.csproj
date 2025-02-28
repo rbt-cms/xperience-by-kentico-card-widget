@@ -1,0 +1,42 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Razor">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <AddRazorSupportForMvc>true</AddRazorSupportForMvc>
+    <IsMvcProject>true</IsMvcProject>
+    <GenerateEmbeddedFileManifest>true</GenerateEmbeddedFileManifest>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <PackageId>Kentico.Xperience.Custom.Widgets.Card</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>Ray Business Technologies</Authors>
+    <Company>Ray Business Technologies</Company>
+    <Description>A Card widget is tidy, visually pleasing container that holds images, text, buttons and other elements for displaying information and features compactly.</Description>
+    <Copyright>Ray Business Technologies</Copyright>
+    <PackAsTool>False</PackAsTool>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <PackageProjectUrl>https://github.com/rbt-cms/xperience-by-kentico-card-widget</PackageProjectUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+  </PropertyGroup>
+  
+  
+  
+  <ItemGroup>
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Kentico.Xperience.WebApp" Version="29.4.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="LICENSE">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Update="README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+</Project>
