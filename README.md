@@ -3,7 +3,7 @@ A Card widget is tidy, visually pleasing container that holds images, text, butt
 
 # Installation
 
-Install the Kentico.Xperience.Custom.Widgets.Card.1.0.0 NuGet Package to your Xperience by Kentico website (>=29.4.0 with .Net 8.0) and rebuild the project.
+Install the Kentico.Xperience.Custom.Widgets.CardWidget.1.0.0 NuGet Package to your Xperience by Kentico website (>=29.4.0 with .Net 8.0) and rebuild the project.
 
 # Widget
 

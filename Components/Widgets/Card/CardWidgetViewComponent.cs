@@ -26,7 +26,7 @@ namespace Kentico.Xperience.Custom.Widgets.Card
 {
     public class CardWidgetViewComponent :ViewComponent
     {
-        public const string IDENTIFIER = "Kentico.Xperience.Custom.Widgets.Card";
+        public const string IDENTIFIER = "Kentico.Xperience.Custom.Widgets.CardWidget";
 
         private readonly IContentQueryExecutor _executor;
         private readonly IPreferredLanguageRetriever _preferredLanguageRetriever;

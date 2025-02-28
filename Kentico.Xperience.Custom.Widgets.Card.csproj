@@ -8,7 +8,7 @@
   </PropertyGroup>
 
   <PropertyGroup>
-    <PackageId>Kentico.Xperience.Custom.Widgets.Card</PackageId>
+    <PackageId>Kentico.Xperience.Custom.Widgets.CardWidget</PackageId>
     <Version>1.0.0</Version>
     <Authors>Ray Business Technologies</Authors>
     <Company>Ray Business Technologies</Company>
